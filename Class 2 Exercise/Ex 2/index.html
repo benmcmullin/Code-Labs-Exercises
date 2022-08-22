@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing List
+    </title>
+</head>
+<body>
+    <section>
+    <li>
+        <h1>Steak</h1>
+        <h2>Chicken</h2>
+        <h3>Pork</h3>
+</li>
+        <ul>
+            <p1>$45</p1>
+            <p2>$25</p2>
+            <p3>$35</p3>
+        </ul>
+    <button type="button" class ="btn-primary" onClick="showPrice1()">
+        Steak
+    </button>
+    <button type="button" class ="btn-primary" onClick="showPrice2()">
+        Pork
+    </button>
+    <button type="button" class ="btn-primary" onClick="showPrice3()">
+        Chicken
+    </button>
+</section>
+<script src = "/main.js"></script>
+<script>
+
+const food1=document.querySelector("h1")
+const price1=document.querySelector("p1")
+const food2=document.querySelector("h3")
+const price2=document.querySelector("p3")
+const food3=document.querySelector("h2")
+const price3=document.querySelector("p2")
+
+function showPrice1() {
+  food1.style.color = "green";
+  price1.style.color= "green";
+  food1.console.log(food1);
+  
+}
+function showPrice2() {
+  food2.style.color = "red";
+  price2.style.color= "red";
+  food2.console.log(food2);
+  
+}
+function showPrice3() {
+  food3.style.color = "blue";
+  price3.style.color= "blue";
+  food3.console.log(food3);
+  
+}
+</script>
+
+    
+</body>
+</html>
